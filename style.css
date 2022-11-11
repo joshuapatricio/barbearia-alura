@@ -1,0 +1,294 @@
+header
+{
+	background: #000615;
+	padding: 20px 0;
+}
+body
+{
+	min-height: 100%;
+	background: #ffffff;
+}
+#caixa
+{
+	display: flex;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+main
+{
+	margin-left: 280px;
+	margin-right: 280px;
+}
+.icone-header
+{
+	width: 177px;
+	height: 250px;
+}
+.icone-header:hover
+{
+	opacity: 0.8;
+	transition: all 0.3s;
+}
+nav
+{
+	position: absolute;
+	top: 120px;
+	right: 270px;
+}
+nav li
+{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a
+{
+	position: relative;
+	text-transform: uppercase;
+	color: #000000;
+	color: #ffffff;
+	font-family: Impact;
+	font-size: 26px;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: brown;
+	transition: all 0.3s;
+
+}
+nav a:active
+{
+	color: #c49028;
+}
+
+.agendarnav
+{
+	padding:5px 5px;
+	background: #ffffff;
+	color:brown;
+	border-radius: 5px;
+}
+.agendarnav:hover
+{
+	color: #ffffff;
+	background: #000615;
+	transition: all 0.4s;
+}
+.redesociais
+{
+	position: absolute;
+	display: inline;
+	right: 70px;
+	top: 100px;
+}
+.icons
+{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.icons li
+{
+	padding: 4px;
+}
+.icons a :hover
+{
+	opacity: 0.8;
+}
+.instagram-icon
+{
+	width: 16px;
+	height: 16px;
+}
+.twitter-icon
+{
+	width: 16px;
+	height: 16px;
+}
+.facebook-icon
+{
+	width: 16px;
+	height: 16px;
+}
+.banner
+{
+	width: 100%;	
+}
+.subtitulo
+{
+	text-align: center;
+	color: #000615;
+	font-family: Impact;
+	font-size: 60px;
+	padding-top: 50px;
+	top: 300px;
+	margin: 0 0 1em;
+}
+#bigode
+{
+	color: #000615;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+main p
+{
+	color: #000615;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+}
+#missao
+{
+	font-size:18px
+}
+
+em strong
+{
+	color: brown;
+	font-family: Segoe UI;
+	font-size: 19px;
+}
+.titulo-principal-map
+{
+	padding-top: 50px;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #000615;
+	font-family: Impact;
+	font-size:60px;
+	text-align: center;
+}
+.subtitulo-map
+{
+	padding: 30px;
+}
+
+.video_title
+{
+	padding: 50px;
+	color: #000000;
+	color: #000615;
+	font-family: Impact;
+	font-size: 60px;
+	text-align: center;
+}
+.video
+{
+	padding: 30px;
+}
+.video-subtitle
+{
+	padding-top: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexbox
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-right:200px;
+}
+
+footer
+{
+	text-align: center;
+	background: #000615;
+	padding: 20px 0;
+	align-items: center;
+}
+footer p
+{
+	font-family: Segoe UI;
+	font-size:14px;
+	color:#e6e1d8;
+}
+.assinatura
+{
+	padding: 70px;
+}
+
+footer nav
+{
+	position:relative;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	top: 30px;
+	margin-left: 530px;
+}
+footer nav a
+{
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+footer li
+{
+	display: inline;
+	margin: 0 0 0 18px
+}
+footer nav a:hover
+{
+	color: #c49028;
+}
+footer nav a:active
+{
+	color: white;
+}
+.agendarnavfooter
+{
+	padding:5px 5px;
+	background: brown;
+	color:#ffffff;
+	border-radius: 5px;
+}
+.agendarnavfooter:hover
+{
+	
+	color: white;
+	background: #1d1a19;
+	transition: all 0.3s;
+	
+}
+.redesociais-footer
+{
+	position: relative;
+	display: inline;
+	right: -50px;
+	top:-40px;
+}
+.icons-footer
+{
+	display: inline;
+	position: relative;
+	padding-top: -px;
+	padding-right: 100px;
+}
+.icons-footer li
+{
+	padding: 0px;
+}
+.icons-footer a :hover
+{
+	opacity: 0.8;
+}
+#logofooter
+{
+	width: 88.5px;
+	height: 125px;
+}
+#logofooter:hover
+{
+	opacity: 0.8;
+}

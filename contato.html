@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Agendar - Barbearia Alura</title>
+        <link rel="icon" href="icon-head.png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contato.css">
+    </head>
+    <body>
+       <header>
+        <div id="caixa">
+            <h1><a href="home.html"><img src="logo-branco.png" class="icone-header"></a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index.html">Serviços</a></li>
+                    <li><a href="contato.html" class="agendarnav">Agendar</a></li>
+                </ul>
+            </nav>
+            <div class="redesociais">
+                <div>
+                    <ul class="icons">
+                        <li><a href="https://www.instagram.com/aluraonline/"><img src="instagram-icon.png" class="instagram-icon"></a></li>
+                        <li><a href="https://twitter.com/AluraOnline"><img src="twitter-icon.png" class="twitter-icon"></a></li>
+                        <li><a href="https://www.facebook.com/AluraCursosOnline"><img src="facebook-icon.png" class="facebook-icon"></a></li>
+                    </ul>		
+                </div>
+            </div>
+        </div>
+       </header>
+
+       <main>
+            <form>
+                <label for="nomeinput">Nome:</label>
+                <input type="text" id="nomeinput" class="input-padrao" required placeholder="Seu nome">
+                
+                <label for="emailinput">E-mail:</label>
+                <input type="email" id="emailinput"class="input-padrao"required placeholder="seuemail@dominio.com">
+
+                <label for="telefoneinput">Telefone:</label>
+                <input type="tel" id="telefoneinput"class="input-padrao"required placeholder="(xx) xxxxx-xxxx">
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="60"rows="10" id="mensagem" class="input-padrao"required></textarea>
+                
+                <fieldset class="opcao-escolha">
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"> <input type="radio" name="contato"value="E-mail" id="radio-email">E-mail</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato"value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                </fieldset>
+
+                <fieldset class="opcao-horario">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades por e-mail?</label>
+
+                <input type="submit" value="Enviar" class="enviarinput">
+            </form>
+       </main>
+       <footer>
+        <div class="flexbox">
+            <a href="home.html"><img src="logo-branco.png" id="logofooter"></a>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="index.html">Serviços</a></li>
+                        <li><a href="contato.html" class="agendarnavfooter">Agendar</a></li>
+                    </ul>
+                </nav>
+            <div class="assinatura">
+                <p> Copyright <char>&#169</char> Barbearia Alura 2022 - Todos os Direitos Reservados.</p>
+                <br>
+                <p> Desenvolvido por Joshua San Juan Patricio</p>
+            </div>
+            <div class="redesociais-footer">
+                <div>
+                    <ul class="icons-footer">
+                        <li><a href="https://www.instagram.com/aluraonline/"><img src="instagram-icon.png" class="instagram-icon"></a></li>
+                        <li><a href="https://twitter.com/AluraOnline"><img src="twitter-icon.png" class="twitter-icon"></a></li>
+                        <li><a href="https://www.facebook.com/AluraCursosOnline"><img src="facebook-icon.png" class="facebook-icon"></a></li>
+                    </ul>		
+                </div>
+            </div>
+        </div>
+       </footer>
+    </body>
+</html>
