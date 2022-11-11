@@ -34,7 +34,7 @@ nav
 {
 	position: absolute;
 	top: 120px;
-	right: 230px;
+	right: 240px;
 }
 nav li
 {
@@ -79,7 +79,7 @@ nav a:active
 {
 	position: absolute;
 	display: inline;
-	right: 70px;
+	right: 10px;
 	top: 100px;
 }
 .icons
@@ -220,7 +220,7 @@ footer nav
 	align-items: center;
 	text-align: center;
 	top: 30px;
-	margin-left: 530px;
+	margin-left: 470px;
 }
 footer nav a
 {
