@@ -119,15 +119,23 @@ nav a:active
 	background: url("beneficios2.jpg");
 	-webkit-mask-image: linear-gradient(to top, transparent 0%, #e6e1d8 70%);
 }
-.caixa-titulo h1
+.subtitulo
 {
 	position: relative;
 	text-transform: uppercase;
-	color: rgb(255, 255, 255);
+	color: #000615;
 	font-family: Impact;
 	font-size: 80px;
 	text-align: center;
-	padding: 110px; 
+	padding-top: 110px; 
+}
+#bigode
+{
+	color: #000615;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding-top: 60px;
 }
 main
 {
@@ -149,7 +157,7 @@ form label, form legend
 ::placeholder
 {
 	color: brown;
-	opacity: 0.5;
+	opacity: 0.4;
 	font-style: italic;
 }
 .input-padrao
@@ -157,7 +165,7 @@ form label, form legend
     display:block;
     margin:0 0 20px;
     padding:10px 25px;
-	width: 50%;
+	width: 100%;
 }
 .opcao-escolha, .opcao-escolha legend
 {
@@ -303,4 +311,12 @@ footer nav a:active
 #logofooter:hover
 {
 	opacity: 0.8;
+}
+.flexbox
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-right:200px;
 }
